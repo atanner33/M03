@@ -35,7 +35,8 @@ print("Number of doors: ", automobile.doorCount)
 print("Type of roof: ", automobile.roofType)
 
 
-#error checking loop needed? not sure...
+
+#error checking loop needed? not sure....
 
 # vtype_sen = False
 # while vtype_sen == False:
