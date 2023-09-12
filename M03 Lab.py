@@ -15,17 +15,13 @@ class automobile(vehicle):
         automobile.doorCount = doorCount
         automobile.roofType = roofType
 
-type = input("Please select your vehicle type - car, truck, plane, boat, or a broomstick: ")
-#sending input to class vehicle to define vehicle.type
-Vehicle1Type = vehicle(type)
+vehicle.type = input("Please select your vehicle type - car, truck, plane, boat, or a broomstick: ")
 
-year = input("Please enter the year of your vehicle: ")
-make = input("Please enter the make of your vehicle: ")
-model = input("Please enter the model of your vehicle: ")
-doorCount = input("Please enter the doorcount of your vehicle: ")
-roofType = input("Please enter the roof type (soild or sun roof) of your vehicle: ")
-#sending input to class automobile to define further information.
-Vehicle1info = automobile(year, make, model, doorCount, roofType)
+automobile.year = input("Please enter the year of your vehicle: ")
+automobile.make = input("Please enter the make of your vehicle: ")
+automobile.model = input("Please enter the model of your vehicle: ")
+automobile.doorCount = input("Please enter the doorcount of your vehicle: ")
+automobile.roofType = input("Please enter the roof type (soild or sun roof) of your vehicle: ")
 
 print("Vehicle type: ", vehicle.type)
 print("Year: ", automobile.year)

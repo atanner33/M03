@@ -10,7 +10,7 @@ def myFunction():
     print(x+y)
 
 #passing data to a function - create a parameter
-def display_number(my_number):
+# def display_number(my_number):
     
-def add_numbers(number1, number2):
-    sum = number1 + number2
+# def add_numbers(number1, number2):
+#     sum = number1 + number2
